@@ -1,4 +1,90 @@
+body{
+    margin: 0%;
+    padding: 0%;
 
+  }
+  
+
+
+  .left {
+    position: relative;
+    margin: 50px;
+    filter: drop-shadow(10px 10px 2px rgb(202, 223, 250));
+  
+  }
+  .panel {
+    width: 330px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin: 5px 0;
+    display: flex;
+    
+  }
+  .login {
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+  }
+
+  
+  .input-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+  }
+  .input-box::placeholder {
+    color: #8a8a8a;
+    font-size: 12px;
+  }
+  .input-box:focus {
+    outline: none;
+    border: 1px solid #8a8a8a;
+  }
+  .button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px 0;
+    background-color: #81b7db;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+  }
+
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #8a8a8a;
+  }
+  .forgot {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .singup a {
+    margin-top: 15px;
+    color: #81b7db;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  
+  
+
+/* footer  */
 .footer-distributed{ 
 	background: rgb(0, 0, 0);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
