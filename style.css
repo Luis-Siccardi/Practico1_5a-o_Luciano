@@ -1,0 +1,9 @@
+header{ 
+    background-color: darkgray;
+    text-align: center;
+    height: 100px;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
