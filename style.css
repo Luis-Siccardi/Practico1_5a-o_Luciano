@@ -1,8 +1,14 @@
-header{ 
-    background-color: darkgray;
-    text-align: center;
-    height: 100px;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 10px 20px; /* Espaciado interno del encabezado */
+    z-index: 1000; /* Para asegurarse de que esté por encima del resto del contenido */
 }
+
 
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
